@@ -8,12 +8,79 @@
     <!-- Link to Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"> <!-- Optional: Link to your custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #007bff;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #0056b3;
+            color: #fff !important;
+        }
+
+        header {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        .bg-secondary {
+            background-color: #343a40 !important;
+        }
+
+        footer {
+            background-color: #222;
+            color: #ccc;
+        }
+
+        footer a {
+            color: #bbb;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        .rounded-circle {
+            border: 4px solid #fff; /* White border around the profile image */
+        }
+
+        h1, h2, h3 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        ul {
+            list-style-type: none; /* Remove bullet points from lists */
+            padding-left: 0; /* Remove default padding */
+        }
+
+        ul li {
+            background-color: #e9ecef; /* Light background for list items */
+            margin: 10px 0; /* Spacing between items */
+            padding: 10px; /* Padding inside list items */
+            border-radius: 5px; /* Rounded corners */
+        }
+    </style>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,7 +101,7 @@
     </nav>
 
     <!-- Header Section -->
-    <header class="text-center p-5 bg-light">
+    <header class="text-center p-5">
         <div class="container">
             <img src="public/images/profile.jpg" alt="Profile Image" class="img-fluid rounded-circle mb-4" style="max-width: 150px;">
             <h1>Welcome to My Portfolio</h1>
@@ -42,7 +109,7 @@
     </header>
 
     <!-- Tagline Section -->
-    <section class="text-center bg-secondary text-white py-5">
+    <section class="text-center py-5" style="background-color: #17a2b8; color: #fff;">
         <div class="container">
             <h2>Creative Web Developer & Designer</h2>
         </div>
@@ -75,12 +142,12 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-center py-3">
         <div class="container">
             <p>Connect with me on social media:</p>
-            <a href="https://twitter.com" target="_blank" class="text-white">Twitter</a> |
-            <a href="https://linkedin.com" target="_blank" class="text-white">LinkedIn</a> |
-            <a href="https://github.com" target="_blank" class="text-white">GitHub</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://github.com" target="_blank">GitHub</a>
         </div>
     </footer>
 
