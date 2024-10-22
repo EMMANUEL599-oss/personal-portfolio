@@ -1,11 +1,55 @@
+/* styles.css */
+
+/* Define variables for colors */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --background-color: #f4f4f4; /* Light Grey */
+    --text-color: #333; /* Dark Grey */
+    --footer-background: #34495e; /* Dark Blue */
+}
+
+/* Body style */
 body {
-    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
-h1, h2, h3 {
-    margin-bottom: 20px;
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
 }
 
-footer a {
-    margin: 0 10px;
+.nav-link {
+    color: #ffffff; /* White text */
+}
+
+/* Header Section */
+header {
+    background-color: var(--secondary-color);
+}
+
+/* Tagline Section */
+.bg-secondary {
+    background-color: var(--primary-color);
+}
+
+/* Skills and Hobbies Section */
+#skillsHobbies h3 {
+    color: var(--primary-color);
+}
+
+/* Footer Section */
+footer {
+    background-color: var(--footer-background);
+}
+
+/* Add custom styling for lists */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    padding: 5px 0; /* Add spacing between items */
 }
